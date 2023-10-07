@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="arrow arrowLeft"  onclick="previous()">
+                <span class="material-symbols-outlined">play_circle</span>
+            </div>
+            <div class="img img1" onclick="galleryOpen()">
+                <img src="img/1.jpg">
+            </div>
+            <div class="img img2" onclick="galleryOpen()">
+                <img src="img/2.jpg">
+            </div>
+            <div class="img img3" onclick="galleryOpen()">
+                <img src="img/3.jpg">
+            </div>
+            <div class="arrow arrowRight" onclick="next()">
+                    <span class="material-symbols-outlined">play_circle</span>
+            </div>
+        </div>   
+    </div>
+    <div class="galleryHidden">
+        <span class="material-symbols-outlined" onclick="galleryClose()">cancel</span>
+        <div class="galleryContainer">
+            <img src="img/1.jpg">
+            <img src="img/2.jpg">
+            <img src="img/3.jpg">
+            <img src="img/4.jpg">
+            <img src="img/5.jpg">
+            <img src="img/6.jpg">
+            <img src="img/7.jpg">
+            <img src="img/8.jpg">
+            <img src="img/9.jpg">
+        </div>
+    </div>
+</body>
+</html>
